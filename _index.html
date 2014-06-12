@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="home">
+<h1>Using This Template</h1>
+{% include frontpage.md %}
+Clone this repo:
+
+```git clone https://github.com/DavidCWebs/jekyll-bootstrap.git```
+
+Rename the new "jekyll-bootstrap" directory:
+
+```mv jekyll-bootstrap new-site```
+
+Move to the new directory:
+
+```cd new-site```
+
+Install Grunt:
+
+```sudo npm install```
+
+##Runnint Grunt Tasks
+Grunt for this project needs to be refined.
+
+Build the site:
+```grunt```
+
+Serve and watch:
+```grunt exec```
+
+##Notes
+* This project has a base url setting in _config.yml
+* Running grunt compiles app/assets/_less/style.less to css/style.css
+* Bootstrap (and other styles) are imported into style.less
+* Add styles to app/assets/_less/style.less
+
+  <h2>Posts</h2>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

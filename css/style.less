@@ -1,0 +1,34 @@
+@import (less) "app.min.css";
+@import (less) "main.css";
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+    color: blue;
+}
+#wrapper {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#main-content {
+   /*padding:10px;*/
+   padding-bottom:160px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:160px;   /* Height of the footer */
+   background:#6cf;
+   padding: 20px;
+}
