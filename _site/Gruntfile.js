@@ -71,7 +71,7 @@ grunt.loadNpmTasks('grunt-contrib-less');
 grunt.loadNpmTasks('grunt-contrib-copy');
 grunt.loadNpmTasks('grunt-exec');
 
-grunt.registerTask('default', [ 'less', 'uglify', 'copy', 'exec:build' ]);
+grunt.registerTask('default', [ 'less', 'uglify', 'copy', 'exec:serve' ]);
 grunt.registerTask('deploy', [ 'default', 'exec:deploy' ]);
 
 };

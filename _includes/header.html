@@ -1,6 +1,27 @@
-<header class="site-header">
-
-  <div class="wrap">
+<!--<header class="site-header">-->
+<header class="banner navbar navbar-default navbar-fixed-top" role="banner">
+ 
+ <div class="container">
+   
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="fa fa-bars"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+    
+    <nav class="collapse navbar-collapse" role="navigation">
+      <div class="trigger">
+        {% for page in site.pages %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
+  
+    
+    <!--<div class="wrap">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
@@ -23,6 +44,6 @@
       </div>
     </nav>
 
-  </div>
+  </div>-->
 
 </header>
