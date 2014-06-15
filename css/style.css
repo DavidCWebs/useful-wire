@@ -6563,9 +6563,9 @@ a {
   color: gray;
 }
 @font-face {
-  font-family: "LinotypeUniversW01-Thin 723610";
-  src: url("Fonts/723610/04b3c812-2234-45b5-af16-18a0f70cf1df.eot?#iefix");
-  src: url("Fonts/723610/04b3c812-2234-45b5-af16-18a0f70cf1df.eot?#iefix") format("eot"), url("Fonts/723610/bc35730a-e839-4dc2-b89f-92575ffec5c1.woff") format("woff"), url("Fonts/723610/20588565-aa56-46ce-8d7c-6b5f77df85f9.ttf") format("truetype"), url("Fonts/723610/06090cbd-08cf-40ac-bd19-62c4bc5ed718.svg#06090cbd-08cf-40ac-bd19-62c4bc5ed718") format("svg");
+  font-family: "LinotypeUniversW01-Thin";
+  src: url("../Fonts/723610/04b3c812-2234-45b5-af16-18a0f70cf1df.eot?#iefix");
+  src: url("../Fonts/723610/04b3c812-2234-45b5-af16-18a0f70cf1df.eot?#iefix") format("eot"), url("../Fonts/723610/bc35730a-e839-4dc2-b89f-92575ffec5c1.woff") format("woff"), url("../Fonts/723610/20588565-aa56-46ce-8d7c-6b5f77df85f9.ttf") format("truetype"), url("../Fonts/723610/06090cbd-08cf-40ac-bd19-62c4bc5ed718.svg#06090cbd-08cf-40ac-bd19-62c4bc5ed718") format("svg");
 }
 @font-face {
   font-family: "LinotypeUniversW01-Regu";
@@ -6577,7 +6577,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "LinotypeUniversW01-Thin 723610", arial;
+  font-family: "LinotypeUniversW01-Thin", arial;
   font-size: 26px;
   line-height: 28px;
   color: #fff;
@@ -6610,7 +6610,7 @@ body {
 }
 ul {
   list-style-type: none;
-  font-family: "LinotypeUniversW01-Thin 723610", arial;
+  font-family: "LinotypeUniversW01-Thin", arial;
   font-size: 26px;
   line-height: 28px;
 }
@@ -6626,12 +6626,12 @@ li.highlighted {
   line-height: 28px;
 }
 .text-style-two {
-  font-family: "LinotypeUniversW01-Thin 723610", arial;
+  font-family: "LinotypeUniversW01-Thin", arial;
   font-size: 26px;
   line-height: 28px;
 }
 .text-style-three {
-  font-family: "LinotypeUniversW01-Thin 723610", arial;
+  font-family: "LinotypeUniversW01-Thin", arial;
   font-size: 16px;
   line-height: 18px;
 }
