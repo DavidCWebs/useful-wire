@@ -1,11 +1,14 @@
-$(document).ready(function() {  
+$(document).ready(function () {  
  setInterval(function() {
      highlight_next_li();
      $('body')
-    .animate( { backgroundColor: '#EFFB3E' }, 5000)
-    .animate( { backgroundColor: '#6ABBE8' }, 5000)
-    .animate( { backgroundColor: 'green' }, 5000)
-    .animate( { backgroundColor: '#b8ffff' }, 5000);
+    .animate( { backgroundColor: '#E7C1A5' }, 5000)
+    .animate( { backgroundColor: '#DEADB3' }, 5000)
+    .animate( { backgroundColor: '#61A28C' }, 5000)
+    .animate( { backgroundColor: '#6A737B' }, 5000)
+    .animate( { backgroundColor: '#2A5CAA' }, 5000)
+    .animate( { backgroundColor: '#733345' }, 5000)
+    .animate( { backgroundColor: '#F26A57' }, 5000);
     },
     5000);
     
